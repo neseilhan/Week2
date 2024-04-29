@@ -1,5 +1,4 @@
-package palindrom;
-import java.util.Scanner;
+package Palindrom;
 
 public class palindrom {
     static boolean isPalindrom(int number){
