@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator/calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator/calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibonacci/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci/fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,7 @@
     "Application.palindrom.executor": "Run",
     "Application.pattern.executor": "Run",
     "Application.pow.executor": "Run",
+    "Application.primeNumber.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
