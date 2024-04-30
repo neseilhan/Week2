@@ -9,7 +9,6 @@ public class primeNumber {
                    return false;
                }
            }
-
        return true;
     }
     public static void main(String[]Args){
