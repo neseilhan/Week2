@@ -94,7 +94,7 @@ public class calculator {
                     break;
                 case 6:
                     mod(a,b);
-                    System.out.println("Mod islemi : "+ mod(a,b));
+                    System.out.println("Mod islemi :  "+ mod(a,b));
                     break;
                 case 7:
                     rectangle(a,b);
