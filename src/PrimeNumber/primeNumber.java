@@ -9,7 +9,7 @@ public class primeNumber {
                    return false;
                }
            }
-        return a != 1;
+        return a != 1; //1 sayisi asal kabul edilmedigi icin 1 asal degildir doner.
     }
     public static void main(String[]Args){
         Scanner inp = new Scanner(System.in);
