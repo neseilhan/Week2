@@ -1,5 +1,4 @@
 package PrimeNumber;
-import javax.lang.model.util.SimpleAnnotationValueVisitor6;
 import java.util.Scanner;
 
 public class primeNumber {
