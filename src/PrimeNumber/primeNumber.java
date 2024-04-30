@@ -5,7 +5,7 @@ public class primeNumber {
     static boolean isPrime (int a){
 
            for(int i=2; i<a; i++){
-               if(a % i == 0 ){ //kendi hariç bir sayiya tam bölünüyorsa false deger donduruyoruz.
+               if(a % i == 0 ){ //kendi hariç bir sayiya tam bölünüyorsa false deger donduruyoruz..
                    return false;
                }
            }
