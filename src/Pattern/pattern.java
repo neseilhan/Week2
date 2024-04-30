@@ -10,7 +10,6 @@ public class pattern {
             System.out.print(n +" ");
             return;
         }
-
         System.out.print(n + " ");
          pat(n - 5);
         System.out.print(n + " ");
