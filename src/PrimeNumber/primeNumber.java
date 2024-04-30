@@ -5,11 +5,11 @@ public class primeNumber {
     static boolean isPrime (int a){
 
            for(int i=2; i<a; i++){
-               if(a % i == 0 ){ //kendi hariç bir sayiya tam bölünüyorsa false deger donduruyoruz..
+               if(a % i == 0 ){ //kendi hariç bir sayiya tam bölünüyorsa false deger donduruyoruz.
                    return false;
                }
            }
-       return true;
+        return a != 1;
     }
     public static void main(String[]Args){
         Scanner inp = new Scanner(System.in);

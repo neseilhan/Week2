@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="prime number completed." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +42,12 @@
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/IdeaProjects/Week1",
     "onboarding.tips.debug.path": "D:/IdeaProjects/Week2/src/Main.java"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,6 +59,31 @@
       <option name="presentableId" value="Default" />
       <updated>1714391814361</updated>
     </task>
+    <task id="LOCAL-00001" summary="prime number completed.">
+      <option name="closed" value="true" />
+      <created>1714503549387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714503549387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prime number completed.">
+      <option name="closed" value="true" />
+      <created>1714503589501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714503589501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="prime number completed.">
+      <option name="closed" value="true" />
+      <created>1714503602597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714503602597</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,6 +96,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prime number completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="prime number completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
