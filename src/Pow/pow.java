@@ -10,7 +10,7 @@ public class pow {
     }
     public static void main(String[] Args){
         Scanner inp = new Scanner(System.in);
-        System.out.println("Taban sayisi:"); // taban ve us sayilarini alır.
+        System.out.println("Taban sayisi:"); //taban ve us sayilarini alır.
         int base = inp.nextInt();
         System.out.println("Us sayisi:");
         int expo = inp.nextInt();
