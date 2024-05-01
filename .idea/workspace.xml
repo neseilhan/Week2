@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="pow fixed.">
-      <change beforePath="$PROJECT_DIR$/src/PrimeNumber/primeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumber/primeNumber.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="prime number fixed.">
+      <change beforePath="$PROJECT_DIR$/src/Pattern/pattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pattern/pattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714585750639</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="prime number fixed.">
+      <option name="closed" value="true" />
+      <created>1714587065154</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714587065154</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,9 +163,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prime number completed." />
-    <MESSAGE value="prime number fixed." />
     <MESSAGE value="pow fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="pow fixed." />
+    <MESSAGE value="prime number fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="prime number fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
