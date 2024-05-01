@@ -2,26 +2,28 @@ package PrimeNumber;
 import java.util.Scanner;
 
 public class primeNumber {
-    static boolean isPrime (int a){
-
-           for(int i=2; i<a; i++){
-               if(a % i == 0 ){ //kendi hariç bir sayiya tam bölünüyorsa false deger donduruyoruz.
-                   return false;
-               }
-           }
-        return a != 1; //1 sayisi asal kabul edilmedigi icin 1 asal degildir doner.
-    }
-    public static void main(String[]Args){
+    public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
+        System.out.print("Lutfen bir tamsayi giriniz : ");
+        int num = inp.nextInt();
 
-        System.out.println("Bir sayi giriniz : ");
-        int a = inp.nextInt();
-        if (isPrime(a)){ //kosul kontrolu yapmıyoruz boolean deger true kabul edilir.
-            System.out.println("Girdiginiz sayi asaldir."); //kendinden baska sayiya tam bolunmemisse asaldir.
+        if (isPrime(num, 2)) {
+            System.out.println(num + " asal sayidir.");
+        } else {
+            System.out.println(num + " asal sayi degildir.");
         }
-        else {
-            System.out.println("Girdiginiz sayi asal degildir.");
-        }
-
     }
+
+    private static boolean isPrime(int num, int bolen) {
+        if (num < 2) {
+            return false;
+        } else if (num == 2) {
+            return true;
+        } else if (num % bolen == 0) {
+            return false;
+        } else {
+            return isPrime(num, bolen + 1);
+        }
+    }
+
 }
