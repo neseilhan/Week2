@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="prime number completed.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pow/pow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pow/pow.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="pow fixed.">
       <change beforePath="$PROJECT_DIR$/src/PrimeNumber/primeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumber/primeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "neseilhan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/neseilhan/Week2",
+    "accountId": "90ad719b-e5de-4515-8775-e3965f66c67c"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -105,7 +115,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714503864167</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="prime number fixed.">
+      <option name="closed" value="true" />
+      <created>1714585679950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714585679951</updated>
+    </task>
+    <task id="LOCAL-00007" summary="prime number fixed.">
+      <option name="closed" value="true" />
+      <created>1714585729822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714585729822</updated>
+    </task>
+    <task id="LOCAL-00008" summary="pow fixed.">
+      <option name="closed" value="true" />
+      <created>1714585750639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714585750639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +155,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prime number completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="prime number completed." />
+    <MESSAGE value="prime number fixed." />
+    <MESSAGE value="pow fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="pow fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
