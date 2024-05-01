@@ -3,34 +3,20 @@ package Pow;
 import java.util.Scanner;
 
 public class pow {
-    public static int power(int taban, int us){
+    public static int power(int base, int expo){
+        if(expo == 0) return 1;// üs 1den kücükse 1 dondur.
+        return base * power(base,expo-1); //ussu 1 azaltarak kendiyle carpar
 
-         int result =1;
-            for (int i = 1; i <= us; i++) { //donguyle sayinin kendisiyle carpilmasi ve sonuca eklenmesi islemi
-                     result *= taban;
-            }
-
-            return result;
     }
     public static void main(String[] Args){
         Scanner inp = new Scanner(System.in);
-        boolean hata = false;
+        System.out.println("Taban sayisi:"); // taban ve us sayilarini alır.
+        int base = inp.nextInt();
+        System.out.println("Us sayisi:");
+        int expo = inp.nextInt();
 
-        do  {
-            System.out.println("taban degeri giriniz : "); //taban olarak a sayisi
-            int a = inp.nextInt();
-            System.out.println("us degeri giriniz : "); //us olarak b sayisi
-            int b = inp.nextInt();
-            int newNum = power(a,b);
-            if(b>0) {
-                System.out.println("Sonuc : " + newNum);
-                hata=false;
-            }
-            if(b <0){
-                System.out.println("Lutfen pozitif bir deger giriniz.");
-                hata = true;
-            }
-        }while(hata);
+        System.out.print("Sonuc: ");
+        System.out.println(power(base,expo)); //sonuc icin method cagirilir.
 
     }
 }
