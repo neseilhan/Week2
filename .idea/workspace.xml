@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="my pattern completed.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="OBS completed.">
+      <change afterPath="$PROJECT_DIR$/src/OBS/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OBS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OBS/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OBS/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714595547596</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="OBS.">
+      <option name="closed" value="true" />
+      <created>1714682466544</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714682466544</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,7 +197,9 @@
     <MESSAGE value="prime number fixed." />
     <MESSAGE value="pattern completed." />
     <MESSAGE value="my pattern completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="my pattern completed." />
+    <MESSAGE value="OBS." />
+    <MESSAGE value="OBS completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="OBS completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
