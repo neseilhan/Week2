@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="Salary calculation completed.">
-      <change beforePath="$PROJECT_DIR$/src/SalarywithClasses/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SalarywithClasses/Employee.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="Boxing completed.">
+      <change beforePath="$PROJECT_DIR$/src/Boxing/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boxing/Match.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714832179619</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Salary calculation completed.">
+      <option name="closed" value="true" />
+      <created>1714832426408</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714832426408</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Boxing completed.">
+      <option name="closed" value="true" />
+      <created>1714832687695</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714832687695</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +255,8 @@
     <MESSAGE value="OBS improved." />
     <MESSAGE value="working on Boxing." />
     <MESSAGE value="Salary calculation completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Salary calculation completed." />
+    <MESSAGE value="Boxing completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Boxing completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
