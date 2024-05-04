@@ -16,7 +16,7 @@ public class Match {
     }
      void run( ){
         if(isCheck()){
-            if (flipCoin().equals("yazi")) {
+            if (flipCoin().equals("yazi")) { //yazi gelirse 1. oyuncu baslar.
                 System.out.println("Yazı tura atildi ve " + flipCoin() + " geldi\n 1. boksor baslayacak.");
                 while (this.b1.health > 0 && this.b2.health > 0) {
                     System.out.println("~~~~~~~YENİ ROUND~~~~~~");
@@ -32,7 +32,7 @@ public class Match {
                     System.out.println(this.b2.name + " Saglik : " + this.b2.health);
                 }
             }
-            if(flipCoin().equals("tura")){
+            if(flipCoin().equals("tura")){ //tura gelirse 2. oyuncu baslar.
                 System.out.println("Yazı tura atildi ve " +flipCoin()+ " geldi\n 2. boksor baslayacak.");
                 while(this.b1.health > 0 && this.b2.health > 0){
                     System.out.println("~~~~~~~YENİ ROUND~~~~~~");
@@ -53,7 +53,7 @@ public class Match {
             System.out.println("Sporcularin skletleri uymuyor.");
         }
      }
-      String flipCoin(){
+      String flipCoin(){ //yazi tura atiliyor.
          double randCoin = Math.random()*100;
          if ( randCoin >= 0 && randCoin <= 50){
              String sonuc1 = "yazi";
@@ -65,10 +65,10 @@ public class Match {
          }
 
      }
-     boolean isCheck(){
+     boolean isCheck(){ //boksorlerin sklet ve kilo kontrolleri.
         return (this.b1.weight >= minWeight && this.b1.weight <= maxWeight) && (this.b2.weight >= minWeight && this.b2.weight <= maxWeight);
      }
-     boolean isWin(){
+     boolean isWin(){ //kalan cana gore kazanan yazdirilir.
         if(this.b1.health == 0){
             System.out.println(b2.name+ " kazandi ! ");
             return true;
