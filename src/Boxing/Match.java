@@ -16,7 +16,7 @@ public class Match {
     }
      void run( ){
         if(isCheck()){
-            if (flipCoin().equals("yazi")) { //yazi gelirse 1. oyuncu baslar.
+            if (flipCoin().equals("yazi")) { //yazi gelirse 2. boksor baslar.
                 System.out.println("Yazı tura atildi ve " + flipCoin() + " geldi\n 1. boksor baslayacak.");
                 while (this.b1.health > 0 && this.b2.health > 0) {
                     System.out.println("~~~~~~~YENİ ROUND~~~~~~");
@@ -32,7 +32,7 @@ public class Match {
                     System.out.println(this.b2.name + " Saglik : " + this.b2.health);
                 }
             }
-            if(flipCoin().equals("tura")){ //tura gelirse 2. oyuncu baslar.
+            if(flipCoin().equals("tura")){ //tura gelirse 1. boksor baslar.
                 System.out.println("Yazı tura atildi ve " +flipCoin()+ " geldi\n 2. boksor baslayacak.");
                 while(this.b1.health > 0 && this.b2.health > 0){
                     System.out.println("~~~~~~~YENİ ROUND~~~~~~");
