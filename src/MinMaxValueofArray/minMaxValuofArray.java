@@ -19,5 +19,7 @@ public class minMaxValuofArray {
         System.out.println("Hedef elemanın indeksi: " + index);
 
         System.out.println("5'e en yakin kücük sayi : \n"+newList[4]+"\n5'e en yakin buyuk sayi : \n"+newList[6]);
+
+        //Nese ilhan
     }
 }
