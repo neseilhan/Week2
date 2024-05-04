@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="comments changed.">
-      <change afterPath="$PROJECT_DIR$/src/AverageofArray/AverageOfArray.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="AverageOfArray completed.">
+      <change afterPath="$PROJECT_DIR$/src/MinMaxValueofArray/minMaxValuofArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.Main.executor": "Run",
     "Application.calculator.executor": "Run",
     "Application.fibonacci.executor": "Run",
+    "Application.minMaxValuofArray.executor": "Run",
     "Application.myPattern.executor": "Run",
     "Application.palindrom.executor": "Run",
     "Application.pattern.executor": "Run",
@@ -248,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714832867776</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="AverageOfArray completed.">
+      <option name="closed" value="true" />
+      <created>1714849888242</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714849888242</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,7 +284,8 @@
     <MESSAGE value="Salary calculation completed." />
     <MESSAGE value="Boxing completed." />
     <MESSAGE value="comments changed." />
-    <option name="LAST_COMMIT_MESSAGE" value="comments changed." />
+    <MESSAGE value="AverageOfArray completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="AverageOfArray completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
