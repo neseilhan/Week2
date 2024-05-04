@@ -11,21 +11,21 @@ public class Employee {
     this.workHours = workHours;
     this.hireYear = hireYear;
 
-     if(salary > 0 ){
+     if(salary > 0 ){ //0'dan buyuk bir maas girildiyse maas girdisini al.
          this.salary = salary;
      }else{
          System.out.println("Gecerli bir maas girmediniz.");
      }
  }
-    boolean isSalaryCorrect(){
-        return !(this.salary <= 0);
+    boolean isSalaryCorrect(){ //maasin gecerli bir deger olup olmadigini kontrol et.
+        return !(this.salary <= 0); //0'dan kucukse false.
     }
 
-    public double tax() {
+    public double tax() {  //vergi oranini bir methodda tut.
         if (salary >= 1000) {
             final double TAX = 0.03;
             double taxRate = salary*TAX;
-            salary -= taxRate;
+            salary -= taxRate; //methodun icinde maastan vergi oranini cikar.
             return taxRate;
         }
         else{
@@ -33,7 +33,7 @@ public class Employee {
         }
     }
 
-    public double bonus(){
+    public double bonus(){ //calisma saatine gore bonus hesabi.
       if(workHours>40){
           int perHoursBonus = (workHours-40) *30;
           return perHoursBonus;
@@ -43,18 +43,18 @@ public class Employee {
       }
     }
 
-    public double bonusBasedOnHireYear(){
-     int recentYear = 2021;
+    public double bonusBasedOnHireYear(){ //ise girilen yila gore bonus hesabi.
+     final int RECENT_YEAR = 2021;
      double raiseRate;
-     if(recentYear-hireYear < 10){
+     if(RECENT_YEAR-hireYear < 10){
         raiseRate = salary*0.05;
         return raiseRate;
 
-     } else if (recentYear - hireYear >= 9 && recentYear - hireYear < 20 ) {
+     } else if (RECENT_YEAR - hireYear >= 9 && RECENT_YEAR - hireYear < 20 ) {
          raiseRate =  salary*0.10;
          return raiseRate;
 
-     } else if (recentYear - hireYear > 19) {
+     } else if (RECENT_YEAR - hireYear > 19) {
          raiseRate = salary*0.15;
          return raiseRate;
      }
@@ -63,7 +63,7 @@ public class Employee {
      }
     }
 
-    public void raiseSalary(){
+    public void raiseSalary(){ //maasa butun artilarin hesabi.
      salary += bonus()+bonusBasedOnHireYear();
     }
 
