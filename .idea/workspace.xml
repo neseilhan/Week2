@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="repeatedNumbers completed.">
-      <change afterPath="$PROJECT_DIR$/src/SortingValuesInArray/sortingValuesInArray.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="repeatedNumbers improved.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RepeatedNumbers/repeatedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RepeatedNumbers/repeatedNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Boxing/Boxer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boxing/Boxer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyPattern/myPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPattern/myPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715004012867</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="repeatedNumbers improved.">
+      <option name="closed" value="true" />
+      <created>1715005613177</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1715005613177</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +333,8 @@
     <MESSAGE value="min max value of array completed." />
     <MESSAGE value="Shape of B completed." />
     <MESSAGE value="repeatedNumbers completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="repeatedNumbers completed." />
+    <MESSAGE value="repeatedNumbers improved." />
+    <option name="LAST_COMMIT_MESSAGE" value="repeatedNumbers improved." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

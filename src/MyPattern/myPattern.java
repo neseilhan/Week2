@@ -10,7 +10,7 @@ static int temp=0;
                 pat(n - 5); //method 0 ya da negatif sayıya kadar azaltır.
 
             }
-            if (n == 0 ) {
+            if (n == 0 || n<0 ) {
                 return; //return calıstıgında method tersten yazdrımaya baslayacak.
             }
             System.out.print(n + " ");
