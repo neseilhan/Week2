@@ -24,6 +24,7 @@ public class Boxer {
         System.out.println(this.name + " => " +opponent.name + "'a " +  this.damage + " kadar hasar verdi.");
         if(opponent.isDodge()){
             System.out.println(opponent.name+" gelen hasari blokladi !");
+            return opponent.health;
         }
         if(opponent.health - this.damage < 0){
             return 0;
