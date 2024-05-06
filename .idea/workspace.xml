@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="sortingValuesInArray completed.">
+      <change afterPath="$PROJECT_DIR$/src/FrequencyofArray/FrequencyofArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingValuesInArray/sortingValuesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingValuesInArray/sortingValuesInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "Application.AsalSayiRec.executor": "Run",
     "Application.AverageOfArray.executor": "Run",
+    "Application.FrequencyofArray.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ShapeofA.executor": "Run",
     "Application.ShapeofB.executor": "Run",
@@ -318,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715007695689</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="sortingValuesInArray completed.">
+      <option name="closed" value="true" />
+      <created>1715010635015</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1715010635015</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
