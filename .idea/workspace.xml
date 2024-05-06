@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="myPattern fixed.">
-      <change beforePath="$PROJECT_DIR$/src/Boxing/Boxer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boxing/Boxer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boxing/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Boxing/Match.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="sortingValuesInArray completed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingValuesInArray/sortingValuesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingValuesInArray/sortingValuesInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +61,7 @@
     "Application.pow.executor": "Run",
     "Application.primeNumber.executor": "Run",
     "Application.repeatedNumbers.executor": "Run",
+    "Application.sortingValuesInArray.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715007168987</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Boxing flipCoin problem fixed.">
+      <option name="closed" value="true" />
+      <created>1715007695689</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1715007695689</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +351,9 @@
     <MESSAGE value="repeatedNumbers completed." />
     <MESSAGE value="repeatedNumbers improved." />
     <MESSAGE value="myPattern fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="myPattern fixed." />
+    <MESSAGE value="Boxing flipCoin problem fixed." />
+    <MESSAGE value="sortingValuesInArray completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="sortingValuesInArray completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
