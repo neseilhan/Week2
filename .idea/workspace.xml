@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="min max value of array completed.">
-      <change afterPath="$PROJECT_DIR$/src/ShapeofB/ShapeofB.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="Shape of B completed.">
+      <change afterPath="$PROJECT_DIR$/src/RepeatedNumbers/repeatedNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +60,7 @@
     "Application.pattern.executor": "Run",
     "Application.pow.executor": "Run",
     "Application.primeNumber.executor": "Run",
+    "Application.repeatedNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714852769807</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Shape of B completed.">
+      <option name="closed" value="true" />
+      <created>1714853718334</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1714853718334</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +314,8 @@
     <MESSAGE value="comments changed." />
     <MESSAGE value="AverageOfArray completed." />
     <MESSAGE value="min max value of array completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="min max value of array completed." />
+    <MESSAGE value="Shape of B completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Shape of B completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
