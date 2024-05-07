@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="transposedMatrix printing issue fixed.">
-      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber/GuessTheNumber.java" afterDir="false" />
+    <list default="true" id="d24a461e-4e2d-415a-8672-0d52523d64a8" name="Changes" comment="GuessTheNumber completed.">
+      <change afterPath="$PROJECT_DIR$/src/PalindromWord/PalindromWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -353,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715075664616</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="GuessTheNumber completed.">
+      <option name="closed" value="true" />
+      <created>1715112575807</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1715112575807</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +399,8 @@
     <MESSAGE value="FrequencyofArray completed." />
     <MESSAGE value="transposedMatrix completed." />
     <MESSAGE value="transposedMatrix printing issue fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="transposedMatrix printing issue fixed." />
+    <MESSAGE value="GuessTheNumber completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="GuessTheNumber completed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
