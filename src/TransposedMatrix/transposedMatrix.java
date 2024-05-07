@@ -41,8 +41,8 @@ public class transposedMatrix {
 
         int[][] transposedMatrix = findTranspose(matrix); //findTranspose() methoduyla degistirilen matrisi yazdirma.
         System.out.println("Transposed Matrix :");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+        for (int i = 0; i < columns; i++) {
+            for (int j = 0; j < rows; j++) {
                 System.out.print(transposedMatrix[i][j] + " ");
             }
             System.out.println();
